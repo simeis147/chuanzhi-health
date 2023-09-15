@@ -1,5 +1,4 @@
 # chuanzhi-health
-传智健康
 
 ## 1 项目介绍
 
