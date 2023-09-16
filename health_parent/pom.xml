@@ -195,6 +195,7 @@
                 <artifactId>jedis</artifactId>
                 <version>${jedis.version}</version>
             </dependency>
+
             <!-- 安全框架 -->
             <dependency>
                 <groupId>org.springframework.security</groupId>
@@ -244,7 +245,7 @@
     </dependencies>
     <build>
         <plugins>
-            <!-- java编译插件 -->
+            <!--java编译插件-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
