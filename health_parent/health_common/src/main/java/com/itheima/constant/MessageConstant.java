@@ -1,4 +1,4 @@
-package com.example.constant;
+package com.itheima.constant;
 
 /**
  * 消息常量

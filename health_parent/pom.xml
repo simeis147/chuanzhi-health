@@ -12,11 +12,11 @@
         <module>health_interface</module>
         <module>health_service_provider</module>
         <module>health_backend</module>
-        <module>health_jobs</module>
     </modules>
     <packaging>pom</packaging>
     <!-- 集中定义依赖版本号 -->
     <properties>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
         <junit.version>4.12</junit.version>
         <spring.version>5.0.5.RELEASE</spring.version>
         <pagehelper.version>4.1.4</pagehelper.version>
@@ -195,7 +195,6 @@
                 <artifactId>jedis</artifactId>
                 <version>${jedis.version}</version>
             </dependency>
-
             <!-- 安全框架 -->
             <dependency>
                 <groupId>org.springframework.security</groupId>
@@ -245,7 +244,7 @@
     </dependencies>
     <build>
         <plugins>
-            <!--java编译插件-->
+            <!-- java编译插件 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

@@ -1,4 +1,4 @@
-package com.example.pojo;
+package com.itheima.pojo;
 
 import java.io.Serializable;
 import java.util.*;
